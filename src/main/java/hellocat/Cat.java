@@ -1,12 +1,11 @@
+package hellocat;
 public class Cat {
 
     private String name;
 
     private int age;
 
-    public Cat() {
 
-    }
 
     public String getName() {
         return name;

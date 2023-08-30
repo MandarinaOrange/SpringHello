@@ -1,3 +1,6 @@
+import hellocat.AppConfig;
+import hellocat.Cat;
+import hellocat.HelloWorld;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +16,7 @@ public class AppTest {
 
     @Autowired
     private ApplicationContext applicationContext;
-    
+
     @Test
     public void mainTest() {
         HelloWorld tree =
