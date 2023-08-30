@@ -4,6 +4,10 @@ public class Cat {
 
     private int age;
 
+    public Cat() {
+
+    }
+
     public String getName() {
         return name;
     }
