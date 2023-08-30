@@ -13,7 +13,7 @@ public class AppTest {
 
     @Autowired
     private ApplicationContext applicationContext;
-
+//тест игнора
     @Test
     public void mainTest() {
         HelloWorld tree =
