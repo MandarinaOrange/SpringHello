@@ -21,13 +21,4 @@ public class AppConfig {
         return cat;
     }
 
-    /*@Bean(name="cat2")
-    @Scope("singleton")
-    public Cat getCat2() {
-        Cat cat = new Cat();
-        cat.setName("Gav");
-        cat.setAge(3);
-        return cat;
-    }*/
-
 }
